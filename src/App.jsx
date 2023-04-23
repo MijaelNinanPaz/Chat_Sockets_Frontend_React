@@ -3,7 +3,8 @@ import "./App.css";
 import io from "socket.io-client";
 import { useEffect } from "react";
 
-const socket = io("http://localhost:4000");
+// const socket = io("http://localhost:4000");
+const socket = io("https://chatsocketsbackendexpress.up.railway.app/");
 
 function App() {
   const [message, setMessage] = useState("");
