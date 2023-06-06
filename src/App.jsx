@@ -41,7 +41,7 @@ function App() {
     chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
   };
   return (
-    <div className="h-screen flex items-center justify-center">
+    <div className="flex items-center justify-center">
       <form onSubmit={handleSubmit} className="bg-zinc-900 p-10">
         <ul className="h-80 overflow-y-auto" ref={chatContainerRef}>
           {messages.map((message, index) => (
