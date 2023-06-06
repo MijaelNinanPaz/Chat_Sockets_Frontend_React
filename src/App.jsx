@@ -62,7 +62,7 @@ function App() {
           className="border-2 border-zinc-500 p-2 w-full"
         />
         <button>enviar</button>
-        <h1 className="text-xl font-bold my-2">Chat Socket by Mijael</h1>
+        <h1 className="text-xl font-bold my-2">Chat Socket</h1>
       </form>
     </div>
   );
